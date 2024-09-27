@@ -2,13 +2,18 @@
 
 This repository contains scripts that automate the process of updating various emulators to the latest version.
 
-## Emulators:
+## Supported Emulators:
 
 1. **`RPCS3`**
 2. **`Dolphin`**
 3. **`Ryujinx`**
 4. **`Lime3ds`**
 5. **`ShadPS4`**
+
+## Usercases
+
+- Update emulators when there is no other convenient way to update it, .e.g., Arcade machines
+
    
 ## Features
 
