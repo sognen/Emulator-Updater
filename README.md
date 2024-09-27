@@ -12,8 +12,8 @@ This repository contains scripts that automate the process of updating various e
    
 ## Features
 
-- Checks if the target folder exists and creates it if it does not.
-- Retrieves the current version of the executable for each emulator.
+- Checks if the emulator folder exists and creates it if it does not.
+- Retrieves the current version of the emulator.
 - Compares the current version with the latest release available on GitHub.
 - Downloads and extracts the latest version if an update is required.
 
