@@ -180,18 +180,6 @@ try {
         Write-Verbose "Publish folder removed." -Verbose
 
         Write-DebugMessage "Update to version $latestVersion completed successfully."
-		# Create the JSON body
-		$body = @{
-			urls = "hassio://192.168.1.122/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI3NTYzMjgyMWFiYTQ0ZjM3ODJiNGM0Y2QxODkwNTJkYSIsImlhdCI6MTY4NTU0OTM2MSwiZXhwIjoyMDAwOTA5MzYxfQ.KkPVmn0cL25YvPRywEwBCe5YJxi6SPyhEH0urLX3QKQ"
-			body = "Update to version $latestVersion completed successfully."
-			title = "Cemu"
-		}
-
-		# Convert to JSON
-		$jsonBody = $body | ConvertTo-Json
-
-		# Invoke the web request
-		Invoke-WebRequest -Uri "http://192.168.1.123:8000/notify/" -ContentType "application/json" -Method POST -Body $jsonBody
     } else {
         Write-DebugMessage "Update not necessary. Current version ($currentVersion) is up to date."
         Write-Verbose "No update required. Current version is the latest." -Verbose
