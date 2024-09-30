@@ -1,4 +1,4 @@
-# Various Emulator Updater Scripts
+# One-Click Emulator Updater
 
 This repository contains scripts that automate the process of updating various emulators to its latest version.
 
