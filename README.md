@@ -34,6 +34,7 @@ This repository contains scripts that automate the process of updating various e
 ## Todo
 
 - Improve error handling
+- Improve version handling
 - Configurator
 
 ### Example Usage
