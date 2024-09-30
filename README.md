@@ -13,7 +13,7 @@ This repository contains scripts that automate the process of updating various e
 
 ## Usercases
 
-- Update emulators when there is no other convenient way to update it, .e.g., Arcade machines
+- Update emulators when there is no other convenient way to update it, .e.g., if using Arcade machines without keyboard and mouse.
 
    
 ## Features
