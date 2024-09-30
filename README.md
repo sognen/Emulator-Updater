@@ -30,6 +30,12 @@ This repository contains scripts that automate the process of updating various e
 - Internet access to fetch the latest releases from GitHub
 - The `7Zip4Powershell` module (installed automatically by the scripts)
 
+
+## Todo
+
+- Improve error handling
+- Configurator
+
 ### Example Usage
 
 **Set Your Variables**:
@@ -39,8 +45,4 @@ This repository contains scripts that automate the process of updating various e
    $targetFolder = Join-Path -Path $env:USERPROFILE -ChildPath "Launchbox\Systems\rpcs3"  # Change to your target folder path
    $token = "YOUR_GITHUB_TOKEN"  # Replace with your GitHub personal access token
 
-## Todo
-
-- Improve error handling
-- Configurator
 
