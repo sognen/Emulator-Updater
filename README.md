@@ -9,6 +9,7 @@ This repository contains scripts that automate the process of updating various e
 3. **`Ryujinx`**
 4. **`Lime3ds`**
 5. **`ShadPS4`**
+6. **`Cemu`**
 
 ## Usercases
 
@@ -37,3 +38,9 @@ This repository contains scripts that automate the process of updating various e
    $targetFile = "rpcs3.exe"  # Change to your target file name
    $targetFolder = Join-Path -Path $env:USERPROFILE -ChildPath "Launchbox\Systems\rpcs3"  # Change to your target folder path
    $token = "YOUR_GITHUB_TOKEN"  # Replace with your GitHub personal access token
+
+## Todo
+
+- Improve error handling
+- Configurator
+
