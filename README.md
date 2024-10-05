@@ -36,6 +36,7 @@ This repository contains scripts that automate the process of updating various e
 - Improve error handling
 - Improve version handling
 - Configurator
+- Appriser Notifications
 
 ### Example Usage
 
