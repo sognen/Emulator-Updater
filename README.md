@@ -6,10 +6,10 @@ This repository contains scripts that automate the process of updating various e
 
 1. **`RPCS3`**
 2. **`Dolphin`**
-3. **`Ryujinx`**
-4. **`Lime3ds`**
-5. **`ShadPS4`**
-6. **`Cemu`**
+4. **`Sudachi`**
+5. **`Lime3ds`**
+6. **`ShadPS4`**
+7. **`Cemu`**
 
 ## Usercases
 
